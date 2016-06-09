@@ -6,10 +6,12 @@
 
 ### Labels - Before
 * labels show up as simple color bars
+
 ![Labels Before](img/labels-before.png)
 
 ### Labels - After
 * labels now have custom colors and helpful client codes
+
 ![Labels After](img/labels-after.png)
 
 ## Dependencies
