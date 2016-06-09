@@ -4,6 +4,14 @@
 * adds label name to labels so you can tell what the label is at a glance
 * adds custom label colors so you can expand beyond the default 10
 
+### Labels - Before
+* labels show up as simple color bars
+![Labels Before](img/labels-before.png)
+
+### Labels - After
+* labels now have custom colors and helpful client codes
+![Labels After](img/labels-after.png)
+
 ## Dependencies
 These adjustments use CSS styles so you'll need a browser plugin to run them. I've created these specifically for [Stylebot](https://chrome.google.com/webstore/detail/stylebot/oiaejidbmkiecgbjeifoejpgmdaleoha), a Google Chrome Extension, but you can copy the CSS into your favorite CSS browser tool.
 
