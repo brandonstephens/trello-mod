@@ -1,0 +1,28 @@
+.card-label.mod-card-front {
+    height: 20px;
+}
+.card-label.mod-card-front:before {
+    content: attr(title);
+    position: absolute;
+    left: 10%;
+    top: 0;
+    color: #ffffff;
+    font-size: 10px;
+    z-index: 100;
+    display: inline;
+    /* background: #4cce6f; */
+    margin: 0 !important;
+    overflow: hidden;
+    padding: 0 !important;
+    height: 100%;
+    text-shadow: none !important;
+    vertical-align: top;
+    text-indent: 0;
+    width: 85%;
+    line-height: 20px;
+    text-overflow: ellipsis;
+}
+
+[title^="CEN"] {
+    background: #aa00ff;
+}
