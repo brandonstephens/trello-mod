@@ -2,8 +2,15 @@
     "trello.com": {
         "_enabled": true,
         "_rules": {
+            ".list-card-labels": {
+                "overflow": "visible"
+            },
             ".card-label.mod-card-front": {
-                "height": "20px"
+                "height": "20px",
+                "text-shadow": "none",
+                "overflow": "visible",
+                "color": "transparent",
+                "line-height": "0"
             },
             ".card-label.mod-card-front:before": {
                 "content": "attr(title)",
@@ -24,6 +31,29 @@
                 "width": "85%",
                 "line-height": "20px",
                 "text-overflow": "ellipsis"
+            },
+            ".card-label.mod-card-front:after": {
+                "content": "attr(title)",
+                "position": "absolute",
+                "top": "24px",
+                "background": "#999999",
+                "left": "0",
+                "line-height": "24px",
+                "font-weight": "normal",
+                "z-index": "500",
+                "color": "white",
+                "padding": "0px 6px",
+                "border-radius": "3px",
+                "box-shadow": "0 2px 3px rgba(0,0,0,.4)",
+                "font-size": "14px",
+                "transition": "all .2s ease",
+                "transform": "translateY(-100%)",
+                "opacity": "0",
+                "pointer-events": "none"
+            },
+            ".card-label.mod-card-front:hover:after": {
+                "transform": "translateY(0%)",
+                "opacity": "1"
             },
             ".card-label.mod-card-front[title^='CEN']": {
                 "background": "#174690"
