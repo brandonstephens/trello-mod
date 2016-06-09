@@ -16,4 +16,12 @@ These adjustments use CSS styles so you'll need a browser plugin to run them. I'
 * **WARNING!!** This will overwrite your current styles. If you already have some, you need to first select Export Styles, append these styles to that file, and then Import
 
 ## Safari Installation Instructions
-* Don't know yet. Need to research CSS injection extensions for Safari
+
+1. Download <http://sobolev.us/stylish/>
+2. Select the Stylish icon in toolbar
+3. Select `Manage` button
+4. Choose `Edit` to make a new style
+5. Paste [trello-mod.css](/trello-mod.css) in the Css field
+6. Set Domain to `trello.com`
+7. Save
+8. Enjoy!
