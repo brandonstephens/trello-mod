@@ -18,6 +18,15 @@
 These adjustments use CSS styles so you'll need a browser plugin to run them. I've created these specifically for [Stylebot](https://chrome.google.com/webstore/detail/stylebot/oiaejidbmkiecgbjeifoejpgmdaleoha), a Google Chrome Extension, but you can copy the CSS into your favorite CSS browser tool.
 
 ## Chrome Installation Instructions
+### Option 1 - Easier
+* Install [Stylebot](https://chrome.google.com/webstore/detail/stylebot/oiaejidbmkiecgbjeifoejpgmdaleoha)
+* Go to Stylebot options
+* Select Styles
+* Select Add a new style
+* Make "trello.com" the url
+* Paste in this CSS
+
+### Option 2 - Harder
 * Install [Stylebot](https://chrome.google.com/webstore/detail/stylebot/oiaejidbmkiecgbjeifoejpgmdaleoha)
 * Go to Stylebot options
 * Select Backup

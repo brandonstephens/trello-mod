@@ -1,5 +1,5 @@
 .list-card-labels {
-    overflow: visible;
+    overflow: visible !important;
 }
 .card-label.mod-card-front {
     height: 20px !important;
@@ -47,7 +47,7 @@
     opacity: 0;
     pointer-events: none;
 }
-.card-label.mod-card-front:hover .card-label.mod-card-front:after{
+.card-label.mod-card-front:hover:after{
     transform: translateY(0%);
     opacity: 1;
 }
