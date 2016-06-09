@@ -21,7 +21,6 @@
     line-height: 20px;
     text-overflow: ellipsis;
 }
-
-[title^="CEN"] {
+.card-label.mod-card-front[title^="CEN"] {
     background: #aa00ff;
 }
