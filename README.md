@@ -10,7 +10,7 @@
 ![Labels Before](img/labels-before.png)
 
 ### Labels - After
-* labels now have custom colors and helpful client codes
+* labels now have custom colors and helpful descriptions
 
 ![Labels After](img/labels-after.png)
 
