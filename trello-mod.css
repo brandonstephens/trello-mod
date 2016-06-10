@@ -58,3 +58,21 @@
 .card-label-black.mod-card-front[title^="CAR"]:before {
     box-shadow: 0 -3px 0px #7aa72d inset;
 }
+.card-label-black.mod-card-front[title^="BBC"]:before {
+    box-shadow: 0 -3px 0px #edaa1c inset;
+}
+.card-label-black.mod-card-front[title^="CTS"]:before {
+    box-shadow: 0 -3px 0px #bf2c37 inset;
+}
+.card-label-black.mod-card-front[title^="DOE"]:before {
+    box-shadow: 0 -3px 0px #d14df8 inset;
+}
+.card-label-black.mod-card-front[title^="IND"]:before {
+    box-shadow: 0 -3px 0px #e3daca inset;
+}
+.card-label-black.mod-card-front[title^="GALLOP"]:before {
+    box-shadow: 0 -3px 0px #ea862d inset;
+}
+.card-label-black.mod-card-front[title^="MAIN"]:before {
+    box-shadow: 0 -3px 0px #99dff7 inset;
+}
