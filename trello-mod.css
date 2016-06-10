@@ -7,7 +7,6 @@
     overflow: visible;
     color: transparent;
     line-height: 0;
-    margin-bottom: 8px;
 }
 .card-label.mod-card-front:before {
     content: attr(title);
