@@ -1,12 +1,23 @@
 .list-card-labels {
     overflow: visible !important;
 }
+
+.card-label.card-label-red.mod-card-front {
+    font-style: italic;
+    text-transform: lowercase;
+}
+
 .card-label.mod-card-front {
     height: 20px !important;
     text-shadow: none;
     overflow: visible;
     color: transparent;
     line-height: 0;
+
+    font-family: "Lucida Console", Monaco, monospace;
+    font-size: 9px;
+    font-weight: 400;
+    text-transform: uppercase;
 }
 .card-label.mod-card-front:before {
     content: attr(title);
@@ -51,6 +62,33 @@
     transform: translateY(0%);
     opacity: 1;
 }
+
+.card-label-pink.mod-card-front[title^="CEN"] {
+    background-color: #65a1ff;
+}
+.card-label-pink.mod-card-front[title^="CAR"] {
+    background-color: #7aa72d;
+}
+.card-label-pink.mod-card-front[title^="BBC"] {
+    background-color: #edaa1c;
+}
+.card-label-pink.mod-card-front[title^="CTS"] {
+    background-color: #bf2c37;
+}
+.card-label-pink.mod-card-front[title^="DOE"] {
+    background-color: #d14df8;
+}
+.card-label-pink.mod-card-front[title^="IND"] {
+    background-color: #e3daca;
+}
+.card-label-pink.mod-card-front[title^="GALLOP"] {
+    background-color: #ea862d;
+}
+.card-label-pink.mod-card-front[title^="MAIN"] {
+    background-color: #99dff7;
+}
+
+
 .card-label-black.mod-card-front[title^="CEN"]:before {
     box-shadow: 0 -3px 0px #65a1ff inset;
 }
