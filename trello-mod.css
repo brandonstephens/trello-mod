@@ -81,6 +81,9 @@
 .card-label-pink.mod-card-front[title^="IND"] {
     background-color: #e3daca;
 }
+.card-label-pink.mod-card-front[title^="LGE"] {
+    background-color: #009E48;
+}
 .card-label-pink.mod-card-front[title^="GALLOP"] {
     background-color: #ea862d;
 }
@@ -106,6 +109,9 @@
 }
 .card-label-black.mod-card-front[title^="IND"]:before {
     box-shadow: 0 -3px 0px #e3daca inset;
+}
+.card-label-black.mod-card-front[title^="LGE"]:before {
+    box-shadow: 0 -3px 0px #009E48 inset;
 }
 .card-label-black.mod-card-front[title^="GALLOP"]:before {
     box-shadow: 0 -3px 0px #ea862d inset;
